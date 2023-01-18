@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.basicInfo {
+  flex: auto;
+  text-align: center;
+  background-color: grey;
+  border: solid 1px;
+}
+
+.teamInfo {
+  flex: auto;
+  text-align: center;
+  border: solid 1px;
+}
+
+.Name {
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.Name:hover {
+  font-size: 2rem;
+
+}
+
+#K:hover {
+  font-size: 2rem;
+
+}
+
+#img {
+
+  height: 500px;
+  width: 300px;
+  border: solid 1px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.hidden {
+  color: transparent;
+}
+
+.skill {
+  background-color: aliceblue;
+}
+
+.item {
+  background-color: aliceblue;
+  width: auto;
+  height: auto;
+}
+
+.item2b {
+  background-color: aliceblue;
+  width: auto;
+  height: auto;
+}
+
+.item3 {
+  background-color: aliceblue;
+  width: auto;
+  height: auto;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  width: 0x;
+  height: 0;
+  background-color: red;
+  z-index: -1;
+  transition: .5s;
+
+}
+
+.item:hover::before {
+  width: 200px;
+  height: 210px;
+}
+
+.item2b::before {
+  content: '';
+  position: absolute;
+  width: 0x;
+  height: 0;
+  background-color: red;
+  z-index: -1;
+  transition: .5s;
+
+}
+
+.item2b:hover::before {
+  width: 200px;
+  height: 210px;
+}
+
+.item3::before {
+  content: '';
+  position: absolute;
+  width: 0x;
+  height: 0;
+  background-color: red;
+  z-index: -1;
+  transition: .5s;
+
+}
+
+.item3:hover::before {
+  width: 212px;
+  height: 210px;
+}
+
+.item2 {
+  width: auto;
+  height: auto;
+  border: none;
+  color: black;
+  background-color: darkgray;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 turquoise;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.Advice {
+  text-align: center;
+  background-color: darkgrey;
+  font-size: 2rem;
+  border: solid 0.5px;
+}
+
+.item2:hover {
+  font-size: 150%;
+  background-color: rgb(176, 176, 176);
+}
+
+#Advice-wrapper {
+  text-align: center;
+  background-color: lightgray;
+  border: solid 0.5px;
+  font-size: 2rem;
+}
+
+.Chat {
+background-color: lightgray;
+}
